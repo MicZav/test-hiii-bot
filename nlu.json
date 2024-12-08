@@ -61,6 +61,16 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
+    "path" : "/прощай",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -81,12 +91,7 @@
       "refs" : [ ]
     },
     "patterns" : [ ],
-    "slots" : [ {
-      "name" : "time.time",
-      "entity" : "duckling.time",
-      "required" : true,
-      "prompts" : [ ]
-    } ],
+    "slots" : [ ],
     "priority" : 0
   }, {
     "path" : "/привет",
