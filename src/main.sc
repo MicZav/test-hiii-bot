@@ -8,16 +8,20 @@ theme: /
 
     state: Hello
         intent!: /привет
-        a: Привет привет
+        a: Приветики
+
+        state: Dela
+            q!: /как дела
+            a: Все отлично! 
 
     state: Bye
         intent!: /пока
-        a: Пока пока
+        a: До новых встречь!
 
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
 
-    state: Match
+    state: Matcha
         event!: match
         a: {{$context.intent.answer}}
