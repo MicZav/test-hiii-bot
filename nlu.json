@@ -74,6 +74,8 @@
       "text" : "прощай"
     }, {
       "text" : "прощайте"
+    }, {
+      "text" : "Пока"
     } ],
     "classificationRules" : {
       "refs" : [ ]
