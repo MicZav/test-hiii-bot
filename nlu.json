@@ -23,7 +23,7 @@
     }
   },
   "intents" : [ {
-    "path" : "/как дела",
+    "path" : "/дела",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -79,6 +79,12 @@
       "refs" : [ ]
     },
     "patterns" : [ ],
+    "slots" : [ {
+      "name" : "time.time",
+      "entity" : "duckling.time",
+      "required" : true,
+      "prompts" : [ ]
+    } ],
     "priority" : 0
   }, {
     "path" : "/привет",

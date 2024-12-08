@@ -10,13 +10,15 @@ theme: /
         intent!: /привет
         a: Приветики
 
-        state: Dela
-            q!: /как дела
-            a: Все отлично! 
+    state: Dela
+        intent!: /дела
+        a: Все отлично!
+        a: Честно говоря, бывало и лучше
+        a: Чувствую себя отлично!
 
     state: Bye
         intent!: /пока
-        a: До новых встречь!
+        a: До новых встреч!
 
     state: NoMatch
         event!: noMatch
