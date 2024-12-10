@@ -24,6 +24,7 @@
   },
   "intents" : [ {
     "path" : "/дела",
+    "answer" : "Порядок",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {

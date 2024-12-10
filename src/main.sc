@@ -28,4 +28,3 @@ theme: /
 
     state: Matcha
         event!: match
-        a: {{$context.intent.answer}}
